@@ -1,0 +1,151 @@
+body{
+    background-color:#000000;
+}
+
+.logo{
+    position:absolute;
+    top:10px;
+    left:15px;
+    width:100px;
+    border: 2px;
+    border-radius:50%;
+    border-color: black;
+    /* border-style: dotted; */
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+}
+.flex-container{
+    dispaly:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(29, 54, 156);
+    padding:5px;
+    height:25px;
+    width:96%;
+    gap:20px;
+    border-radius:15px;
+    margin:45px;
+
+
+} 
+.box1{
+    background-color: steelblue;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color:rgb(12, 20, 69);
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 0px;
+    word-spacing: 15px;
+    text-shadow: 2px 2px 5px rgb(72, 78, 80);
+    
+}
+.font{
+    font-size: medium;
+    font-family: "Merienda", cursive;
+    font-size: 20px;
+    font-weight:bold;
+    color:rgb(75, 107, 238);
+    text-align: center;
+    margin-top: 0; 
+    margin-bottom: 0px;
+
+}
+
+.flex-container2{
+    display:flex;
+    justify-content:right;
+    gap: 10px;
+}
+.item{
+    color:white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.flex-container3{
+
+    display:flex;
+    justify-content: center;
+    align-items: column;
+    flex-direction: row;
+    gap:22px;
+    margin-bottom: 50px;
+}
+.img{
+    width: 400px;
+    height:400px;
+    margin:50px;
+    border-radius:50%;
+    
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.flex-container4{
+    display: flex;
+    align-items: column;
+    flex-direction: column;
+}
+
+/* .bigflex{
+    display:flex;
+    align-items:flex-start;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+    padding: 20px;
+} */
+ .bigflex {
+    display: flex;
+    justify-content: space-around; 
+    /* align-items: ;  */
+     gap: 30px;
+    /* padding: 20px; */
+    margin-top: 40px;
+    flex-direction:row;
+}
+
+.imgflex1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.images img {
+  border-radius: 12px;
+  box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    display: flex;
+    align-items:center;
+
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+}    
+
+.text p {
+  margin: 0; 
+  /* padding: 0;  */
+}
+
+
+
+
+ 
+  
+    
+}
